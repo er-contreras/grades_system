@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: <%= ENV.fetch('DATABASE_HOST') %>
+  username: <%= ENV.fetch('DATABASE_USERNAME') %>
+  password: <%= ENV.fetch('DATABASE_PASSWORD') %>
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: temporal_development
+
+test:
+  <<: *default
+  database: temporal_test
+
+production:
+  <<: *default
+  database: temporal_production
+  username: temporal
+  password: <%= ENV["TEMPORAL_DATABASE_PASSWORD"] %>
