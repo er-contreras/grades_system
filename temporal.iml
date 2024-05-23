@@ -53,6 +53,7 @@
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.14.5, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="io-console (v0.7.2, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="irb (v1.13.1, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.12.0, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.22.0, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.8.1, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="marcel (v1.0.4, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
