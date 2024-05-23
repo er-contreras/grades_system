@@ -8,14 +8,14 @@ default: &default
 
 development:
   <<: *default
-  database: temporal_development
+  database: grades_system_development
 
 test:
   <<: *default
-  database: temporal_test
+  database: grades_system_test
 
 production:
   <<: *default
-  database: temporal_production
-  username: temporal
-  password: <%= ENV["TEMPORAL_DATABASE_PASSWORD"] %>
+  database: grades_system_production
+  username: grades_system
+  password: <%= ENV["GRADES_SYSTEM_DATABASE_PASSWORD"] %>
