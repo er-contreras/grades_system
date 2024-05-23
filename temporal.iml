@@ -47,6 +47,7 @@
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="date (v3.3.4, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug (v1.9.2, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.5.1, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="drb (v2.2.1, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.12.0, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v1.2.1, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
@@ -82,6 +83,11 @@
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.2.1, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v6.6.3.1, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="reline (v0.5.7, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v3.13.0, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v3.13.0, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v3.13.1, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-rails (v6.1.2, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-support (v3.13.1, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="stringio (v3.1.0, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v1.3.1, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="timeout (v0.4.1, Remote: ruby-3.2.3 (-p157) [gem]" level="application" />
