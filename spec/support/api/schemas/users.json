@@ -1,0 +1,12 @@
+{
+  "$id": "/schemas/users",
+
+  "type": "array",
+  "properties": {
+    "name": { "type": "string" },
+    "email": { "type": "string" },
+    "role": { "type": "string" }
+  },
+
+  "required": ["name", "email", "role"]
+}
