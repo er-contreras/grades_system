@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 ruby "3.2.3"
 
+gem "jwt"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 
@@ -42,6 +44,7 @@ group :development, :test do
   gem "factory_bot_rails"
   gem "faker"
   gem "json_matchers"
+  gem "dotenv"
 end
 
 group :development do
