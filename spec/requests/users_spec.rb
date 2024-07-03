@@ -22,7 +22,7 @@ RSpec.describe "Users", type: :request do
       expect(json_response).to match_json_schema("users")
     end
 
-    it "return unproccessable entity" do
+    it "return 401 unauthorized" do
       get users_path
 
       expect(response).to have_http_status(401)
