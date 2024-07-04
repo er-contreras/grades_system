@@ -1,3 +1,20 @@
+## How to turn on the lights
+    If you decide to use docker, you can do the next:
+
+    - `docker-compose run --rm web build`
+    - `docker-compose up`
+
+    If you decide to run directly in your machine, you may choose your prefered way but I recommend the next.
+
+    As I don't like to install many other dependecies over my ruby version I choose to install all the gems in a separate
+    directory called vendor.
+
+    - `bundle install --path vendor/bundle`
+
+    In order to run rails you will need to do the next as follows.
+
+    - `bundle exec rails s`
+
 ## Run test
     docker-compose run --rm web rails db:create RAILS_ENV=test
     docker-compose run --rm web bundle exec rspec spec
